@@ -5,7 +5,7 @@ title: Reading Comprehension
 description: "Analyses texts for main arguments, evidence, and rhetorical strategies"
 tags: [Tested]
 connections:
-  - target: anthropic-claude
+  - target: llm-service
     type: runs_on
   - target: critical-thinking-framework
     type: references

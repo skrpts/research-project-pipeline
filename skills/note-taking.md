@@ -5,7 +5,7 @@ title: Note-Taking
 description: "Transforms lecture content and readings into structured, retrievable notes"
 tags: []
 connections:
-  - target: anthropic-claude
+  - target: llm-service
     type: runs_on
 ---
 

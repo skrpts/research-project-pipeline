@@ -5,7 +5,7 @@ title: Source Evaluation
 description: "Assesses academic sources for credibility, relevance, and bias"
 tags: [Needs Review]
 connections:
-  - target: anthropic-claude
+  - target: llm-service
     type: runs_on
   - target: academic-integrity-policy
     type: references
