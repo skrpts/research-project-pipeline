@@ -3,7 +3,7 @@ type: workflow
 id: research-project-pipeline
 title: Research Project Pipeline
 description: "Source gathering, evaluation, note-taking, and bibliography building"
-tags: [Draft]
+tags: [Production]
 connections:
   - target: source-evaluation
     type: uses
@@ -56,7 +56,9 @@ Research documentation containing:
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
-| `{{input.brief}}` | Yes | Primary workflow brief or source content | `Paste a short brief describing the goal, audience, and constraints.` |
+| `{{input.brief}}` | Yes | Research brief describing the topic, question, and goals | `Investigate the impact of remote learning on student engagement in UK secondary schools` |
+| `{{input.source_text}}` | Yes | The source material to evaluate, analyse, and take notes on | `Paste the source text, article, or chapter here` |
+| `{{input.citation_style}}` | No | Citation style for the bibliography | `APA 7th edition` |
 
 ## Outputs
 
