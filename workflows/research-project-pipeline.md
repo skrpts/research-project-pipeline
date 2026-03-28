@@ -19,6 +19,8 @@ connections:
     type: uses
   - target: bibliography-builder
     type: uses
+  - target: llm-service
+    type: runs_on
 ---
 
 ## Overview

@@ -9,7 +9,7 @@ connections: []
 
 ## Overview
 
-The Harvard referencing system is an author-date citation style widely used in academic writing.
+The Harvard referencing system is an author-date citation style widely used in academic writing. This guide covers the essential formatting rules.
 
 ## In-Text Citations
 
@@ -17,6 +17,7 @@ The Harvard referencing system is an author-date citation style widely used in a
 - Two authors: (Smith and Jones, 2023)
 - Three or more: (Smith et al., 2023)
 - Direct quote: (Smith, 2023, p. 42)
+- Multiple works: (Smith, 2023; Jones, 2022)
 
 ## Reference List Format
 
