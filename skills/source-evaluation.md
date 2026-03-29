@@ -3,7 +3,7 @@ type: skill
 id: source-evaluation
 title: Source Evaluation
 description: "Assesses academic sources for credibility, relevance, and bias"
-tags: [Production, analysis:source, planning:research]
+tags: [Production, Academic, Research]
 connections:
   - target: llm-service
     type: runs_on

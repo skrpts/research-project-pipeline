@@ -3,7 +3,7 @@ type: document
 id: research-log-template
 title: Research Log Template
 description: "Template for tracking research progress and sources consulted"
-tags: [Production, planning:research, research:literature]
+tags: [Production, Academic, Research]
 connections: []
 ---
 

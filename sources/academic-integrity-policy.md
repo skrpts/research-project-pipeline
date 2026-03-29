@@ -3,7 +3,7 @@ type: source
 id: academic-integrity-policy
 title: Academic Integrity Policy
 description: "Guidelines for maintaining academic integrity in research and writing"
-tags: [Production, research:ethics, quality:standards]
+tags: [Production, Academic, Quality, Writing]
 connections: []
 ---
 

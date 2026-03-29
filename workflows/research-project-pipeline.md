@@ -3,7 +3,7 @@ type: workflow
 id: research-project-pipeline
 title: Research Project Pipeline
 description: "Source gathering, evaluation, note-taking, and bibliography building"
-tags: [Production, research:citations, learning:comprehension]
+tags: [Production, Academic, Citations, Learning]
 connections:
   - target: source-evaluation
     type: uses

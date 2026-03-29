@@ -3,7 +3,7 @@ type: skill
 id: note-taking
 title: Note-Taking
 description: "Transforms lecture content and readings into structured, retrievable notes"
-tags: [Production, learning:comprehension, planning:research]
+tags: [Production, Academic, Learning]
 connections:
   - target: llm-service
     type: runs_on

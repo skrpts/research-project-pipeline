@@ -3,7 +3,7 @@ type: prompt
 id: take-notes
 title: Take Notes
 description: "Core prompt for structuring study notes"
-tags: [Production, planning:research, research:literature]
+tags: [Production, Academic, Research]
 connections:
   - target: note-taking
     type: derived_from
