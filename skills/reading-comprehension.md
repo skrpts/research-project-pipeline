@@ -3,7 +3,7 @@ type: skill
 id: reading-comprehension
 title: Reading Comprehension
 description: "Analyses texts for main arguments, evidence, and rhetorical strategies"
-tags: [Tested]
+tags: [Tested, learning:comprehension, planning:research]
 connections:
   - target: llm-service
     type: runs_on

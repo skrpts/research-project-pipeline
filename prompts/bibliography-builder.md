@@ -3,7 +3,7 @@ type: prompt
 id: bibliography-builder
 title: Bibliography Builder
 description: "Task prompt for formatting sources into a bibliography"
-tags: [Production]
+tags: [Production, research:citations, planning:research]
 connections:
   - target: source-evaluation
     type: derived_from

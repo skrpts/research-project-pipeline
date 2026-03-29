@@ -3,7 +3,7 @@ type: prompt
 id: evaluate-source
 title: Evaluate Source
 description: "Core prompt for assessing source credibility and relevance"
-tags: [Production]
+tags: [Production, analysis:source, planning:research]
 connections:
   - target: source-evaluation
     type: derived_from

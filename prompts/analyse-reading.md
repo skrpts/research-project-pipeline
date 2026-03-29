@@ -3,7 +3,7 @@ type: prompt
 id: analyse-reading
 title: Analyse Reading
 description: "Core prompt for deep analysis of academic texts"
-tags: [Production]
+tags: [Production, learning:comprehension, planning:research]
 connections:
   - target: reading-comprehension
     type: derived_from
