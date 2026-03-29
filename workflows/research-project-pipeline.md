@@ -11,6 +11,8 @@ connections:
     type: uses
   - target: note-taking
     type: uses
+  - target: data-interpretation
+    type: uses
   - target: evaluate-source
     type: uses
   - target: analyse-reading
@@ -19,8 +21,14 @@ connections:
     type: uses
   - target: bibliography-builder
     type: uses
+  - target: interpret-data
+    type: uses
   - target: llm-service
     type: runs_on
+  - target: apa-7th-edition
+    type: references
+  - target: harvard-referencing-guide
+    type: references
 ---
 
 ## Overview
