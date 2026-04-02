@@ -29,6 +29,10 @@ connections:
     type: references
   - target: harvard-referencing-guide
     type: references
+  - target: citation-extraction
+    type: uses
+  - target: research-log-template
+    type: references
 ---
 
 ## Overview
