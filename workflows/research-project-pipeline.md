@@ -13,16 +13,6 @@ connections:
     type: uses
   - target: data-interpretation
     type: uses
-  - target: evaluate-source
-    type: uses
-  - target: analyse-reading
-    type: uses
-  - target: take-notes
-    type: uses
-  - target: bibliography-builder
-    type: uses
-  - target: interpret-data
-    type: uses
   - target: llm-service
     type: runs_on
   - target: apa-7th-edition
