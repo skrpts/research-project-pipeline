@@ -19,6 +19,6 @@ You are an academic reading specialist. Analyse the following text and identify:
 
 ### Inputs
 
-- **Source evaluation:** {{steps.evaluate-source.output}}
+- **Source evaluation:** {{steps.Source Evaluation.output}}
 
 Use the source evaluation output to inform which aspects of the text warrant deeper analysis, and apply the same research brief context established there.

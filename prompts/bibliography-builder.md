@@ -19,6 +19,6 @@ Format the following sources into a bibliography using {{input.citation_style}} 
 
 ### Inputs
 
-- **Structured notes:** {{steps.take-notes.output}}
+- **Structured notes:** {{steps.Note-Taking.output}}
 
 Use the bibliographic details captured during note-taking as the source list to format, applying the citation style above to all sources identified through the workflow.

@@ -3,7 +3,7 @@ id: "aa6deeb8-f521-4713-830e-283a366510b4"
 name: "research-project-pipeline"
 display_name: "Research Project Pipeline"
 description: "Source gathering, evaluation, note-taking, and bibliography building"
-version: "1.1.1"
+version: "1.1.2"
 engine: ">=1.0.0"
 
 # --- Attribution ---
