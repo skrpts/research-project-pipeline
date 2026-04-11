@@ -4,6 +4,19 @@ id: evaluate-source
 title: Evaluate Source
 description: "Core prompt for assessing source credibility and relevance"
 tags: [Production, Academic, Research]
+inputs:
+  brief:
+    label: "Brief"
+    description: "The full assignment or project brief including requirements, constraints, and expected deliverables"
+    example: "Write a 2000-word analysis of competitive pricing strategies in the SaaS market"
+    required: true
+    type: text
+  source_text:
+    label: "Source Text"
+    description: "The text to analyse or process"
+    example: "[Paste the full text here]"
+    required: true
+    type: text
 connections:
   - target: source-evaluation
     type: derived_from

@@ -4,6 +4,13 @@ id: bibliography-builder
 title: Bibliography Builder
 description: "Task prompt for formatting sources into a bibliography"
 tags: [Production, Academic, Citations]
+inputs:
+  citation_style:
+    label: "Citation Style"
+    description: "The academic citation format to use"
+    example: "APA 7th Edition"
+    required: true
+    type: text
 connections:
   - target: source-evaluation
     type: derived_from
