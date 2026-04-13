@@ -27,16 +27,12 @@ execution:
   - skill: "source-evaluation"
     step_type: "review"
   - skill: "reading-comprehension"
-    input_from: "source-evaluation"
     step_type: "synthesis"
   - skill: "note-taking"
-    input_from: "reading-comprehension"
     step_type: "synthesis"
   - skill: "data-interpretation"
-    input_from: "note-taking"
     step_type: "synthesis"
   - skill: "citation-extraction"
-    input_from: "data-interpretation"
     step_type: "synthesis"
 ---
 
