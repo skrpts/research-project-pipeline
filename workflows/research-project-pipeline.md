@@ -23,6 +23,13 @@ connections:
     type: uses
   - target: research-log-template
     type: references
+output_step: "data-interpretation"
+composite_steps:
+  - "source-evaluation"
+  - "reading-comprehension"
+  - "note-taking"
+  - "data-interpretation"
+  - "citation-extraction"
 execution:
   - skill: "source-evaluation"
     step_type: "review"
