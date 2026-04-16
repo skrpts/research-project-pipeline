@@ -13,6 +13,8 @@ connections:
     type: uses
   - target: data-interpretation
     type: uses
+  - target: language-polish
+    type: uses
   - target: llm-service
     type: runs_on
   - target: apa-7th-edition
@@ -23,13 +25,14 @@ connections:
     type: uses
   - target: research-log-template
     type: references
-output_step: "data-interpretation"
+output_step: "language-polish"
 composite_steps:
   - "source-evaluation"
   - "reading-comprehension"
   - "note-taking"
   - "data-interpretation"
   - "citation-extraction"
+  - "language-polish"
 execution:
   - skill: "source-evaluation"
     step_type: "review"
@@ -43,6 +46,8 @@ execution:
     step_type: "synthesis"
     context:
       citation_style: "Harvard"
+  - skill: "language-polish"
+    step_type: "content"
 ---
 
 ## Overview
