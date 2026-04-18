@@ -36,6 +36,7 @@ composite_steps:
 execution:
   - skill: "source-evaluation"
     step_type: "review"
+    prompt: "evaluate-source"
   - skill: "reading-comprehension"
     step_type: "synthesis"
   - skill: "note-taking"

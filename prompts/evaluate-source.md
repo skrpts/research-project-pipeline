@@ -16,7 +16,8 @@ inputs:
     description: "The text to analyse or process"
     example: "[Paste the full text here]"
     required: true
-    type: text
+    type: file
+    accept: ".pdf,.txt,.md,.docx"
 connections:
   - target: source-evaluation
     type: derived_from
