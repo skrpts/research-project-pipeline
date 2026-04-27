@@ -38,16 +38,21 @@ execution:
     step_type: "review"
     prompt: "evaluate-source"
   - skill: "reading-comprehension"
+    prompt: "analyse-reading"
     step_type: "synthesis"
   - skill: "note-taking"
+    prompt: "take-notes"
     step_type: "synthesis"
   - skill: "data-interpretation"
+    prompt: "interpret-data"
     step_type: "synthesis"
   - skill: "citation-extraction"
+    prompt: "extract-citations"
     step_type: "synthesis"
     context:
       citation_style: "Harvard"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
 ---
 
