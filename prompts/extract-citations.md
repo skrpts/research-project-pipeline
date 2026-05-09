@@ -26,7 +26,7 @@ You are a reference librarian. Extract and format all citations from the text be
 
 ### Citation Style
 
-{{step.context.citation_style}}
+{{input.citation_style}}
 
 ### Instructions
 
