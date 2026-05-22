@@ -1,8 +1,0 @@
-- name: Draft
-  colour: "#f59e0b"
-
-- name: Tested
-  colour: "#3b82f6"
-
-- name: Needs Review
-  colour: "#8b5cf6"

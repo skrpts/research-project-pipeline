@@ -3,7 +3,7 @@ id: "aa6deeb8-f521-4713-830e-283a366510b4"
 name: "research-project-pipeline"
 display_name: "Research Project Pipeline"
 description: "Source gathering, evaluation, note-taking, and bibliography building"
-version: "1.1.24"
+version: "1.1.26"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -17,9 +17,9 @@ repository: "https://github.com/skrpts/research-project-pipeline"
 # --- Discovery (Hub) ---
 category: "student"
 tags:
+  - "academic"
   - "research"
   - "thesis"
-  - "academic"
 
 # --- Security & Access ---
 requires:
