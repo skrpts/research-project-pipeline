@@ -3,7 +3,7 @@ id: "aa6deeb8-f521-4713-830e-283a366510b4"
 name: "research-project-pipeline"
 display_name: "Research Project Pipeline"
 description: "Source gathering, evaluation, note-taking, and bibliography building"
-version: "1.1.28"
+version: "1.1.29"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -100,3 +100,17 @@ contents:
   documents: 1
   assets: 0
   total: 8
+
+security:
+  status: "pass"
+  scanned_at: "2026-07-02T20:18:25.030Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: ["llm-service"]
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/research-project-pipeline/security"

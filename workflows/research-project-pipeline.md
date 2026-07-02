@@ -37,23 +37,29 @@ execution:
   - skill: "source-evaluation"
     step_type: "review"
     prompt: "evaluate-source"
+    output: { name: "source_evaluation", type: "text" }
   - skill: "reading-comprehension"
     prompt: "analyse-reading"
     step_type: "synthesis"
+    output: { name: "reading_analysis", type: "text" }
   - skill: "note-taking"
     prompt: "take-notes"
     step_type: "synthesis"
+    output: { name: "notes", type: "text" }
   - skill: "data-interpretation"
     prompt: "interpret-data"
     step_type: "synthesis"
+    output: { name: "interpretation", type: "text" }
   - skill: "citation-extraction"
     prompt: "extract-citations"
     step_type: "synthesis"
+    output: { name: "citations", type: "list" }
     context:
       citation_style: "Harvard"
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_output", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
