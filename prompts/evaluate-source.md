@@ -13,7 +13,7 @@ inputs:
     type: text
   source_text:
     label: "Source Text"
-    description: "The text to analyse or process"
+    description: "The text to analyze or process"
     example: "[Paste the full text here]"
     required: true
     type: file

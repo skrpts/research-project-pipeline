@@ -2,7 +2,7 @@
 type: skill
 id: reading-comprehension
 title: Reading Comprehension
-description: "Analyses texts for main arguments, evidence, and rhetorical strategies"
+description: "Analyzes texts for main arguments, evidence, and rhetorical strategies"
 tags: [Tested, Academic, Learning]
 connections:
   - target: llm-service

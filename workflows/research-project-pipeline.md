@@ -77,7 +77,7 @@ Invoke the **source-evaluation** skill to assess potential sources for credibili
 
 ### Stage 2: Reading and Analysis
 
-Invoke the **reading-comprehension** skill to analyse selected sources for main arguments, evidence quality, and rhetorical strategies.
+Invoke the **reading-comprehension** skill to analyze selected sources for main arguments, evidence quality, and rhetorical strategies.
 
 ### Stage 3: Note-Taking
 
@@ -101,7 +101,7 @@ Research documentation containing:
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
 | `{{input.brief}}` | Yes | Research brief describing the topic, question, and goals | `Investigate the impact of remote learning on student engagement in UK secondary schools` |
-| `{{input.source_text}}` | Yes | The source material to evaluate, analyse, and take notes on | `Paste the source text, article, or chapter here` |
+| `{{input.source_text}}` | Yes | The source material to evaluate, analyze, and take notes on | `Paste the source text, article, or chapter here` |
 | `{{input.citation_style}}` | No | Citation style for the bibliography | `APA 7th edition` |
 
 ## Outputs
@@ -115,7 +115,7 @@ Research documentation containing:
 Before running this workflow:
 
 1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
-2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+2. Review the included documents, assets, or source nodes and customize them to match your team, brand, or domain conventions where needed.
 3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
 
 ## Provider Notes
