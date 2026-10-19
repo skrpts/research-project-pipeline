@@ -103,6 +103,9 @@ Research documentation containing:
 | `{{input.brief}}` | Yes | Research brief describing the topic, question, and goals | `Investigate the impact of remote learning on student engagement in UK secondary schools` |
 | `{{input.source_text}}` | Yes | The source material to evaluate, analyze, and take notes on | `Paste the source text, article, or chapter here` |
 | `{{input.citation_style}}` | No | Citation style for the bibliography | `APA 7th edition` |
+| `{{input.module_name}}` | Yes | The name of the course module or subject | `Introduction to Macroeconomics` |
+| `{{input.study_material}}` | Yes | The material to study — lecture notes, textbook chapters, or readings | `[Paste lecture notes or reading material here]` |
+| `{{input.topic}}` | Yes | The main subject or topic to address | `The impact of remote work on team productivity` |
 
 ## Outputs
 
