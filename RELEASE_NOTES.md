@@ -1,5 +1,18 @@
 # Release Notes
 
+## v1.1.32
+GH#1189 — the bibliography stage now runs. It was documented from the start and never wired.
+
+Stage 4 of this pipeline has always promised to "format all cited sources into the required citation style", and an annotated bibliography has always been listed among the outputs — but no execution entry invoked the `bibliography-builder` prompt, so the stage never ran and the bibliography was never produced. The prompt and the prose were added in the same original commit; nothing was ever removed. This was a stage that was never built, not one that was retired.
+
+It now runs after note-taking, which is where its own input comes from (`{{steps.Note-Taking.output}}`) and where the documentation places it. It produces a new `bibliography` output.
+
+Also in this version:
+  `language-polish` now declares `bindings: source` ← `Citation Extraction` instead of resolving that slot by position. The value is unchanged — position already resolved to Citation Extraction, and it still does — but the dependency is now stated, so a future reorder cannot silently feed the polish step a different artefact.
+  Dependency pin `polish-language` 1.0.1 → 1.0.7, the published version that declares the `source` slot the binding targets. Checksum resolved against live Hub rather than transcribed.
+
+This version also repairs the catalogue record. The row describing this package had not been rewritten since v1.1.30 and still described that version's workflow, because v1.1.31's catalogue write did not land (GH#1113, fixed three days after that publish). Publishing this version rewrites it.
+
 ## v1.1.31
 GH#1044 — document the inputs this workflow's prompts REQUIRE but its Inputs table never listed. A user supplying exactly what the table asked for was running with required parameters unsatisfied — a silent wrong run, not a documentation nicety. documented 3 input(s): module_name, study_material, topic. Every row is generated from the requiring prompt's own declared description, example and required flag — none invented. No behaviour change; documentation only.
 

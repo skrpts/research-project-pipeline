@@ -3,7 +3,7 @@ id: "aa6deeb8-f521-4713-830e-283a366510b4"
 name: "research-project-pipeline"
 display_name: "Research Project Pipeline"
 description: "Source gathering, evaluation, note-taking, and bibliography building"
-version: "1.1.31"
+version: "1.1.32"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -73,8 +73,8 @@ dependencies:
     checksum: "sha256:aae1129260dce7ba5eae7debe69e697ae0e5d962f65654123eaf617df01e1f3d"
   - id: "9b1771e0-39b0-4fbc-8d45-738f51b6083a"
     name: "polish-language"
-    version: 1.0.1
-    checksum: "sha256:2a666b1a1566e45a3d69cf3fac51399a471169184409ef54d588f69b7da7097e"
+    version: 1.0.7
+    checksum: "sha256:637891c464e09eb353932f9a37a59dd8bfe77be7117fb6918e032fba802040d0"
   - id: "9bc84136-4031-422a-8fb7-5ee1b671450d"
     name: "take-notes"
     version: 1.0.3
@@ -103,7 +103,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-10-19T12:32:40.606Z"
+  scanned_at: "2026-11-14T22:44:05.923Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"

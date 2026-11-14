@@ -23,6 +23,8 @@ connections:
     type: references
   - target: citation-extraction
     type: uses
+  - target: citation-format-templates
+    type: references
   - target: research-log-template
     type: references
 output_step: "language-polish"
@@ -30,6 +32,7 @@ composite_steps:
   - "source-evaluation"
   - "reading-comprehension"
   - "note-taking"
+  - "citation-format-templates"
   - "data-interpretation"
   - "citation-extraction"
   - "language-polish"
@@ -46,6 +49,10 @@ execution:
     prompt: "take-notes"
     step_type: "synthesis"
     output: { name: "notes", type: "text" }
+  - id: "citation-format-templates"
+    prompt: "bibliography-builder"
+    step_type: "synthesis"
+    output: { name: "bibliography", type: "text" }
   - skill: "data-interpretation"
     prompt: "interpret-data"
     step_type: "synthesis"
@@ -63,6 +70,10 @@ execution:
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
+    bindings:
+      source:
+        from_step: "Citation Extraction"
+        field: output
 ---
 
 ## Overview
