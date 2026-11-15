@@ -23,6 +23,8 @@ connections:
     type: references
   - target: citation-extraction
     type: uses
+  - target: bibliography-building
+    type: uses
   - target: citation-format-templates
     type: references
   - target: research-log-template
@@ -32,7 +34,7 @@ composite_steps:
   - "source-evaluation"
   - "reading-comprehension"
   - "note-taking"
-  - "citation-format-templates"
+  - "bibliography-building"
   - "data-interpretation"
   - "citation-extraction"
   - "language-polish"
@@ -49,7 +51,7 @@ execution:
     prompt: "take-notes"
     step_type: "synthesis"
     output: { name: "notes", type: "text" }
-  - id: "citation-format-templates"
+  - skill: "bibliography-building"
     prompt: "bibliography-builder"
     step_type: "synthesis"
     output: { name: "bibliography", type: "text" }

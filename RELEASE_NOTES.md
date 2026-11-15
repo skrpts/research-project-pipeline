@@ -1,5 +1,18 @@
 # Release Notes
 
+## v1.1.33
+GH#1214 — the bibliography stage v1.1.32 added did not actually run. It does now.
+
+v1.1.32 declared the stage with `id: "citation-format-templates"`, pointing at a citation-format
+template. A template is an asset, and only a skill or a prompt can back an executable step — so the
+entry matched no planner branch and was dropped silently, with no error and no warning. The stage
+was present in the catalogue, listed in the pipeline, and produced nothing.
+
+It is now backed by a new **Bibliography Building** skill, which is what the stage actually does.
+The citation-format templates remain declared as reference material, which is their correct role.
+
+Skills 2 → 3, total 8 → 9.
+
 ## v1.1.32
 GH#1189 — the bibliography stage now runs. It was documented from the start and never wired.
 

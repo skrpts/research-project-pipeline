@@ -3,7 +3,7 @@ id: "aa6deeb8-f521-4713-830e-283a366510b4"
 name: "research-project-pipeline"
 display_name: "Research Project Pipeline"
 description: "Source gathering, evaluation, note-taking, and bibliography building"
-version: "1.1.32"
+version: "1.1.33"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -92,18 +92,18 @@ requires:
 
 # --- Contents ---
 contents:
-  skills: 2
+  skills: 3
   prompts: 3
   workflows: 1
   services: 0
   sources: 1
   documents: 1
   assets: 0
-  total: 8
+  total: 9
 
 security:
   status: "pass"
-  scanned_at: "2026-11-14T22:44:05.923Z"
+  scanned_at: "2026-11-15T16:31:29.640Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"
